@@ -10,7 +10,7 @@ Each of them includes three part: 1. Implementation without using high-level lib
 
 | Homework # | Topic                                                        | Relative Algorithm                 | Dataset                                                      |
 | :--------: | ------------------------------------------------------------ | ---------------------------------- | ------------------------------------------------------------ |
-|     0      | Set up IDE                                                   |                                    | [Vertebral Column Data Set]
+|     0      | Set up IDE                                                   |                                    | 
 |     1      | Introduction to Machine Learning                             | KNN                                | [Vertebral Column Data Set](http://archive.ics.uci.edu/ml/datasets/vertebral+column#) |
 |     2      | Regression                                                   | Linear Regression                  | [Combined Cycle Power PlantData Set](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) |
 |     3      | Classification                                               | Logistic Regression / Naive Bayes  | [AReM Data Set](https://archive.ics.uci.edu/ml/datasets/Activity+Recognition+system+based+on+Multisensor+data+fusion+(AReM)) |
