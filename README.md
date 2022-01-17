@@ -1,4 +1,4 @@
-# DSCI552
+# DSCI552: Machine Learning for Data
 USC project
 
 ## Introduction
@@ -7,12 +7,13 @@ There were eight assignments in DSCI552.
 Each of them includes three part: 1. Implementation without using high-level library 2. Utilize software/libraty 3. Real-world applications.
 
 ## Topics
-| Folder name | Description|
-| ------------- | ------------- |
-| 1. Decision tree | Input: dt_data.txt<br>Algorithm: Build decision tree with two branches  |
-| 2. Expectation_Maximization_algorithm  | Input: clusters.txt<br>Algorithm: Kmeans and GuassianGaussian Mixture Model   |
-| 3. Fastmap |Input: fastmap_data.txt, fastmap_wordlist.txt<br>Algorithm: Applying fastmap to get the new distance matrix preserving the original distance features|
-| 4. Logistic_LR  |Input: classification.txt, linear-regression.txt<br>Algorithm: Perceptron Learning algorithm, Pocket algorithm, Logistic Regression, Linear Regression|
-| 5. Neural_Network |Input: gestures folder<br>Algorithm: Back propagation and Adagrad |
-| 6. SVM  |Input: linsep.txt, nonlinsep.txt <br>Algorithm: Support Vector Machines|
-| 7. HMM  |Input:hmm-data <br>Algorithm: Hidden Markov Model using Viterbi Algorithm| 
+
+| Homework # | Topic                                                        | Relative Algorithm                 | Dataset                                                      |
+| :--------: | ------------------------------------------------------------ | ---------------------------------- | ------------------------------------------------------------ |
+|     1      |                                                              | KNN                                | [Vertebral Column Data Set](http://archive.ics.uci.edu/ml/datasets/vertebral+column#) |
+|     2      | Regression                                                   | Linear Regression                  | [Combined Cycle Power PlantData Set](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) |
+|     3      | Classification                                               | Logistic Regression / Naive Bayes  | [AReM Data Set](https://archive.ics.uci.edu/ml/datasets/Activity+Recognition+system+based+on+Multisensor+data+fusion+(AReM)) |
+|     4      | Tree Model / Boosting                                        | XGBoost / LMT / LASSO / Ridge      | [Communities and Crime Data Set](http://archive.ics.uci.edu/ml/datasets/communities+and+crime) / [APS Failure at Scania Trucks Data Set](https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks) |
+|     5      | Multi-class and Multi-Label                                  | SVM / KMeans                       | [Anuran Calls (MFCCs) Data Set](https://archive.ics.uci.edu/ml/datasets/Anuran+Calls+(MFCCs)) |
+|     6      | Supervised / Semi-supervised / Unsupervised Learning, Active Learning / Passive Learning | SVM / KMeans / Spectral Clustering | [Breast Cancer Wisconsin (Diagnostic)](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) |
+|     7      | Deep Learning                                                | LSTM / CNN                         | [Bertrand Russell's bboks from Project Gutenberg](https://www.gutenberg.org/ebooks/author/355) |
