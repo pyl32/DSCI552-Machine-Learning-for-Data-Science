@@ -3,6 +3,3 @@ USC project
 
 ## Introduction
 There were eight assignments in DSCI552.
-
-
-## Topics
