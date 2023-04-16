@@ -1,0 +1,16 @@
+|--- a1 Temperature of patient { 35C-42C } <= 37.95
+|   |--- a3 Lumbar pain { yes, no } <= 0.50
+|   |   |--- class: 1
+|   |--- a3 Lumbar pain { yes, no } >  0.50
+|   |   |--- class: 0
+|--- a1 Temperature of patient { 35C-42C } >  37.95
+|   |--- a3 Lumbar pain { yes, no } <= 0.50
+|   |   |--- class: 0
+|   |--- a3 Lumbar pain { yes, no } >  0.50
+|   |   |--- a5 Micturition pains { yes, no } <= 0.50
+|   |   |   |--- class: 0
+|   |   |--- a5 Micturition pains { yes, no } >  0.50
+|   |   |   |--- a4 Urine pushing (continuous need for urination) { yes, no } <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- a4 Urine pushing (continuous need for urination) { yes, no } >  0.50
+|   |   |   |   |--- class: 0
